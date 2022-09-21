@@ -7,7 +7,6 @@ a {
 }
 
 
-paddin
 .page {
   min-width: 1100px;
   /* we don't know how to make mobile versions of websites yet, */
@@ -109,10 +108,12 @@ paddin
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  color: #2F80ED;
 }
 
 .two-columns__main-text {
   width: 80%;
+
 }
 
 
@@ -120,6 +121,10 @@ paddin
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+}
+
+.two-columns__paragraph_padding {
+  padding-bottom: 30px;
 }
 
 .two-columns__paragraph-span {
@@ -151,9 +156,11 @@ paddin
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
   width: 1100px;
   margin: auto;
   padding-top: 60px;
+  row-gap: 60px;
 
 }
 
@@ -162,7 +169,7 @@ paddin
 
   width: 250px;
   list-style: none;
-  padding: 10px;
+  
   
 }
 
@@ -274,6 +281,7 @@ paddin
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
   width: 1100px;
   margin: auto;
   position: relative;
@@ -320,16 +328,19 @@ paddin
 
 
 .footer {
+  display: flex;
   min-height: 350px;
   background-color: #1F1F1F;
   color: #ffffff;
   padding-top: 60px;
   padding-bottom: 40px;
+  box-sizing: border-box;
+  justify-content: space-between;
 }
 
 .footer__columns {
   width: 90%;
-  margin:auto;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   
