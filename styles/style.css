@@ -195,6 +195,9 @@ a {
   margin-top: 100px;
   position: relative;
   height: 790px;
+  display: flex;
+  flex-direction: column;
+
   
 }
 
@@ -213,9 +216,6 @@ a {
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
-  position: absolute;
-  left: 0;
-  right: 0;
   margin: auto;
   text-align: center;
   z-index: 1;
@@ -223,7 +223,9 @@ a {
 }
 
 .feynman__subtitle {
-  padding-top: 70px;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -236,7 +238,7 @@ a {
   font-weight: normal;
   position: absolute;
   top: 50%;
-  right: 0;
+  right: 48px;
   z-index: 1;
   
 }
