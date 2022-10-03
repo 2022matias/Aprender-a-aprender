@@ -9,6 +9,22 @@
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__square-pic/_rotación/header__square-pic_rotación.css);
 
+@import url(../blocks/description/description.css);
+@import url(../blocks/two-columns/two-columns.css);
+@import url(../blocks/two-columns/__brief/two-columns__brief.css);
+@import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
+@import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
+@import url(../blocks/two-columns/__paragraph/two-columns__paragraph-padding.css);
+@import url(../blocks/two-columns/__paragraph/two-columns__paragraph-span-accent.css);
+
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/__cell/table__cell.css);
+@import url(../blocks/table/__heading/table__heading.css);
+@import url(../blocks/table/__text/table__text.css);
+
+
 
 * { margin: 0;
   padding: 0;
@@ -35,53 +51,6 @@ a {
 
 
 
-.content {
-  background-color: #ffffff;
-}
-
-.description {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-.two-columns {
-  margin: auto;
-  width: 80%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  min-width: 784px;
-}
-
-.two-columns__brief {
-  width: 175px;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  color: #2F80ED;
-}
-
-.two-columns__main-text {
-  width: 80%;
-
-}
-
-
-.two-columns__paragraph {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-}
-
-.two-columns__paragraph_padding {
-  padding-bottom: 30px;
-}
-
-.two-columns__paragraph-span {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: bold;
-}
 
 
 
@@ -93,60 +62,6 @@ a {
 
 
 
-.section-title {
-  width: 60%;
-  text-align: center;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: bold;
-  margin: auto;
-}
-
-.section-subtitle {
-  width: 60%;
-  text-align: center;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  margin: auto;
-  padding-top: 20px;
-}
-
-.table {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 1100px;
-  margin: auto;
-  padding-top: 60px;
-  row-gap: 60px;
-
-}
-
-
-.table__cell {
-
-  width: 250px;
-  list-style: none;
-  
-  
-}
-
-
-.table__heading {
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.table__text {
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  padding-top: 20px;
-  
-}
 
 
 
