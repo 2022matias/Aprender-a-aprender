@@ -7,6 +7,6 @@
     }
   } 
 
-  .header__square-pic_rotación {
+  .rotación {
     animation: rotación 20s linear infinite;
   }
