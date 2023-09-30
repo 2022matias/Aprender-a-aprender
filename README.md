@@ -10,4 +10,4 @@
 *Posicionamientos
 *Animaciones
 
-![ Aprender a aprender] (./images/gifAprender.gif)
+![ Aprender a aprender](./images/gifAprender.gif)
