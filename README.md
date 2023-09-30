@@ -7,4 +7,4 @@
 *Posicionamientos
 *Animaciones
 
-![ Aprender a aprender] (./images/gifAprender)
+![ Aprender a aprender] (./images/gifAprender.mp4)
